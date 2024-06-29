@@ -13,12 +13,12 @@
             top: 0px;left:0px;
             width: 100%;
             height: 70px;
-            background-color: rgb(47, 35, 90)
+            background-color: rgb(19, 9, 71)
         }
         .a1>ol{
             display: flex; 
             text-align: center;
-            margin: 0 260px;
+            margin: 7px 200px;
         }
         .a1>ol>a{
             margin: 10px;
@@ -30,12 +30,12 @@
         header{
             position:fixed;
             top: 70px;left:0px;
-            width: 100%;
+            width:auto ;
             background-color: white;
         }
         header>img{
             width: 50%;
-            margin: 2% 26%;
+            margin: 2% 27%;
         }
         article{
             margin-top: 440px;
@@ -53,7 +53,7 @@
             padding: 10px;
         }
         header>ol>div{
-            width: 400px;
+            width: 240px;
             margin: 0px 10px;
             height: auto;
         }
@@ -129,6 +129,7 @@
             line-height: 40px;
         }
         section{
+            margin: 0px 10px;
             display: flex;
         }
         section>div>img{
@@ -136,7 +137,7 @@
             margin-left: 150px;
         }
         section>.s2>p{ 
-            margin-right: 200px;
+            margin-right: 150px;
             line-height: 30px;
             font-style: oblique;
             font-size: larger;
@@ -174,6 +175,117 @@
             font-size: large;
             padding: 10px 0px 30px 0px;
         }
+        @media screen and (max-width:720px)
+        {
+            .a1>ol>a>img{
+                height: 20px;
+                margin-top: 8px;
+            }
+         .a1{
+            position:fixed;
+            top: 0px;left:0px;
+            height: 80px;
+            background-color:  rgb(19, 9, 71)
+        }
+        .a1>ol{
+            display: flex; 
+            font-size: 10px;
+            text-align: center;
+            margin: 7px 32px;
+        }
+        header{
+            max-width: 720px;
+        }
+        header>ol{
+            display:flex;
+            margin: 0px 10px;
+            background-color: white;
+            line-height: 20px;
+            text-align: center;
+            padding: 5px;
+        }
+        header>ol>div{
+            width: 200px;
+            margin: 0px 10px;
+            height: auto;
+        }
+        header>ol>div>a{
+            line-height: 15px;
+            font-size: 9px;
+            color: white;
+            text-decoration: none;
+            align-content: space-evenly;
+        }
+        header>img{
+            padding: 20px;
+            width: 350px;
+            margin: 0px 160px;  
+            height: 50px; 
+        }
+        header>.h6{
+            width: 720px;
+            font-size: small;
+            margin: 10px 0px;
+        }
+        header>.h7{
+            width: 720px;
+            font-size: small;
+            margin: 10px 0px;
+            height: 20px;
+        }
+        .h7>ol>.h8{
+            height: 20px;
+            padding: 5px;
+            font-size: 9px;
+            text-align: center;
+        }
+        .h7>ol>.h9{
+            line-height: 20px;
+            height: 20px;
+            font-size: 15px;
+        }
+        article{
+            margin-top: 330px;
+            width: 100%;
+            height: 50vh;
+            background-image: url(./photos/anna\ university.jpg);
+            background-size:100%;
+            background-repeat: no-repeat;
+        }
+        section>div>img{
+            height: 500px;
+            margin-left: 20px;
+        }
+        section>.s2>p{ 
+            margin-left: 10px;
+            margin-right: 20px;
+            line-height: 20px;
+            font-style: oblique;
+            font-size: small;
+            text-align: justify;
+        }
+        section>.s3{
+            font-size: small;
+        }
+        footer>.f{
+            font-size: 9px;
+            padding: 20px;
+        }
+        .f>div>ol>li{
+            list-style-type:square;
+            margin: 10px;
+            font-size: small;
+        }
+        .f11>li{
+            font-size: small;
+        }
+        .f2{
+            text-align: center;
+            color: white;
+            font-size: small;
+            padding: 0px 0px 20px 0px;
+        }
+        }
     </style>
 </head>
 <body>
@@ -203,7 +315,8 @@
         Consortium of industries <br> B.E./B.tech.(Part-time) <br> B.E.(Training Integrated)</a></div><br>    
     </ol>
     <div class="h6">
-        <marquee behavior="" direction=""> <b>Kind attention to Distingushed Alumini of CEG,ACT,MIT & SAP</b></marquee></div>
+        <marquee behavior="" direction=""> <b>Kind attention to Distingushed Alumini of CEG,ACT,MIT & SAP</b>
+        </marquee></div>
 <div class="h7">
         <ol>
             <div class="h8">News & Events</div>
@@ -214,22 +327,22 @@
         </ol>
     </div>
 </header>
+<article>
 
-    <article>
-
-    </article> 
+</article>
     <section>
         <div class="s1">
             <img src="./photos/s1.jpg" alt="">
         </div>
         <div class="s2">
-            <p><span><b style="font-weight:900;font-size: xx-large;">Welcome To University</b></span><br><br>Anna University was established on 4th September, 1978 as a unitary type of University. This University was named after Late Dr.C.N.Annadurai, former Chief Minister of Tamil Nadu. It offers higher education in Engineering, Technology, Architecture and Applied Sciences relevant to the current and projected needs of the society. Besides promoting research and disseminating knowledge gained therefrom, it fosters cooperation between the academic and industrial communities.
+            <p><span><b class="s3" style="font-weight:900;font-size: xx-large;">Welcome To University</b></span><br><br>Sanna University was established on 8th September, 1900 as a unitary type of University. This University was named after Late Dr.P.N.Saminathan, former Chief Minister of Tamil Nadu. It offers higher education in Engineering, Technology, Architecture and Applied Sciences relevant to the current and projected needs of the society. Besides promoting research and disseminating knowledge gained therefrom, it fosters cooperation between the academic and industrial communities.
                 The University was formed by bringing together and integrating four well known technical institutions in the city of Madras (now Chennai) namely,
                 
-                College of Engineering (CEG) (Established in 1794)
-                Alagappa College of Technology (ACT) (Established in 1944)
-                Madras Institute of Technology (MIT) (Established in 1949)
-                School of Architecture & Planning (SAP) (Established in 1957)</p>
+                College of Engineering (CEG) (Established in 1790)
+                Alagappa College of Technology (ACT) (Established in 1940)
+                Madras Institute of Technology (MIT) (Established in 198)
+                School of Architecture & Planning (SAP) (Established in 1956
+                )</p>
         </div>
     </section>
     <footer>
